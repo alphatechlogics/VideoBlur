@@ -1,0 +1,68 @@
+# =======================================
+# General Python ignores
+# =======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =======================================
+# Virtual Environments
+# =======================================
+env/
+venv/
+.venv/
+.venv*/ 
+
+# Poetry/Virtualenv
+.poetry/
+.mypy_cache/
+.pytest_cache/
+
+# =======================================
+# Jupyter Notebooks Checkpoints
+# =======================================
+.ipynb_checkpoints/
+
+# =======================================
+# OS / Editor-specific
+# =======================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =======================================
+# Logs / Temp / Caches
+# =======================================
+*.log
+*.tmp
+*.bak
+temp/
+logs/
+*.out
+
+# =======================================
+# Large files / Data / Model Weights
+# =======================================
+# (Uncomment or add your specific model weights if you prefer not to track them)
+# *.pt
+# *.onnx
+# *.weights
+data/
+videos/
+output/
+results/
+
+# =======================================
+# Additional YOLO / Ultralytics artifacts
+# =======================================
+# Some YOLO runs can generate "runs/" folders with logs/checkpoints:
+runs/
